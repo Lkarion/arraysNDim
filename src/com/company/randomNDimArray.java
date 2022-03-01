@@ -5,11 +5,6 @@ import java.util.Arrays;
 public class randomNDimArray {
     public static void main(String[] args) {
         //Implement the method that create an array int[n][n] of random integers
-        int size0=5, size1=7;
-        int[][] array2Dim = new int[size0][size1];
-        array2Dim[0] = getRandomArray(size0, 0, 10);
-        array2Dim[1] = getRandomArray(size1, 0, 10);
-        System.out.println(Arrays.toString(array2Dim[0])+"\n"+Arrays.toString(array2Dim[1]));
         System.out.println(Arrays.deepToString(getRandomArray2Dim(10,0,100)));
 
     }
